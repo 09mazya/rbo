@@ -1,0 +1,30 @@
+.app {
+	width: auto;
+	height: 100vh;
+	background-color: #0773bb;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.form {
+	min-width: 200px;
+	width: 30vw;
+	height: 20em;
+	background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+	border-radius: 10px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+input {
+	width: 25vw;
+	height: 2em;
+	border-radius: 10px;
+	font-size: 15px;
+}
+button {
+	width: 8vw;
+	height: 2em;
+}
