@@ -1,0 +1,25 @@
+.BLeft {
+	width: 24%;
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.bLeftButton {
+	width: auto;
+	height: 4vh;
+	border: 1px solid;
+
+	border: none;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	border-radius: 5px;
+}
+.active {
+	background: #31b465;
+	color: white;
+}

@@ -2,8 +2,14 @@
     width: auto;
     height: 100vh;
     background-color: #fafafa;
-    
+
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+}
+.aaa{
+    width: auto;
+    height: 75vh;
+    display: flex;
     justify-content: space-around;
 }

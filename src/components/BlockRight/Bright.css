@@ -1,0 +1,70 @@
+.BRight {
+	width: 20%;
+	height: 70vh;
+	display: flex;
+	gap: 16px;
+	flex-direction: column;
+	align-items: center;
+}
+.profile {
+	width: 15em;
+	height: 30vh;
+	display: flex;
+
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+
+.editButton button {
+	width: 16vw;
+	height: 5vh;
+
+	background: #efefef;
+	border-radius: 5px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	border: none;
+	line-height: 13px;
+	text-align: center;
+	color: #000000;
+}
+.imgInfo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+.report {
+	width: 15em;
+	height: 36vh;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+	display: flex;
+    justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+}
+.RRules {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 15px;
+}
+.R-data {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+
+    padding: 20px;
+	color: #000000;
+}

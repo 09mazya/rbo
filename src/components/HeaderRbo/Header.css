@@ -1,10 +1,10 @@
 .HeaderRbo {
 	width: auto;
-	height: 14vh;
-	border: 1px solid;
+	height: 12vh;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+    background-color: #ffffff;
 }
 .RBO {
 	width: 30%;
@@ -38,7 +38,4 @@
 	width: 15%;
 	display: flex;
 	justify-content: space-evenly;
-}
-.rboImg img{
-    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
