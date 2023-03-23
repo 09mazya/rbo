@@ -21,7 +21,7 @@
 .rboButtons {
 	width: 26%;
 	display: flex;
-    gap: 10px;
+    gap: 26px;
 }
 .rboButtons a {
 	font-family: "Inter";

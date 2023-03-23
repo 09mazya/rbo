@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { Link } from "react-router-dom";
 
 import classes from "./RegistorRbo.module.css"
 const RegisterRbo = () => {
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
-
-
-
   return (
     <div className={classes.app}>
       <form className={classes.form}>
@@ -21,7 +17,9 @@ const RegisterRbo = () => {
           name="password"
           placeholder="Password...."
         />
-        <button type="submit">Войти</button>
+        <Link to="/profile">
+          <button type="submit">Войти</button>
+        </Link>
       </form>
     </div>
   )

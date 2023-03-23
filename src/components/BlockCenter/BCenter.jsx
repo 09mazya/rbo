@@ -20,9 +20,9 @@ function BCenter() {
                     <div className="reportNumber">
                         <p>Отчёты :</p>
                         <div className="reportButton">
-                            <button>report 1</button>
-                            <button>report 2</button>
-                            <button>report 3</button>
+                                <button>report 1</button>
+                                <button>report 2</button>
+                                <button>report 3</button>
                         </div>
                     </div>
                     <div className="email-rbo">
